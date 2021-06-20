@@ -1,0 +1,80 @@
+.radio{
+    cursor: pointer;
+    padding-left: 9px;
+}
+
+#alice {
+    animation: aliceTumbling infinite 5s linear;
+  }
+  
+  @keyframes aliceTumbling {
+    0% {
+      color: #000;
+      transform: rotate(0) translate3D(10%, 10%, 0);
+    }
+    30% {
+      color: #431236;
+    }
+    100% {
+      color: #000;
+      transform: rotate(360deg) translate3D(5%, 5%, 0);
+    }
+  }
+
+  #alice2 {
+    animation: aliceTumbling infinite 5s linear;
+  }
+  
+  @keyframes aliceTumbling {
+    0% {
+      color: #000;
+      transform: rotate(0) translate3D(5%, 5%, 0);
+    }
+    30% {
+      color: #431236;
+    }
+    100% {
+      color: #000;
+      transform: rotate(360deg) translate3D(10%,10%, 0);
+    }
+  }
+
+  #data{
+      animation: zoomin infinite 6s linear;
+      /* margin-left: 400px;
+      margin-right: 400px;
+      margin-top: 20px; */
+  }
+
+  @keyframes zoomin {
+    0%{
+        transform: 'scale(1)';
+        box-shadow: 2px  2px 20px rgb(255, 0, 64);
+       
+      
+    }
+    25%{
+        transform: 'scale(0.5)';
+        box-shadow: 3px  3px 30px rgb(235, 40, 73);
+       
+      
+    }
+    50%{
+        transform: 'scale(1)';
+        box-shadow: 5px  5px 30px rgb(228, 87, 74);
+       
+      
+    }
+    75%{
+        transform: 'scale(1)';
+        box-shadow: 5px  5px 30px rgb(97, 95, 136);
+       
+      
+    }
+   
+    100%{
+        transform: 'scale(0.5)';
+        box-shadow: 2px  2px 20px rgb(240, 236, 239);
+       
+    }
+  }
