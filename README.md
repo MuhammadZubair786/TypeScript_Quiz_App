@@ -11,6 +11,5 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Online Hosting Link :
+## Online Hosting Link : [Click Me For Open Project](https://type-script-quiz-app.web.app/)
 
-[Click me](https://type-script-quiz-app.web.app/)
